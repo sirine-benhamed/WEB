@@ -1,5 +1,5 @@
-let favcolor =document.getElementById('favcolor');
-let number = document.getElementById('nb');
-favcolor.addEventListener('mouseover',function(e) => {​​​​​​​​
-    h1.style.color = e.target.value;
-    contents.style.background = hexToRgbA(e.target.value);
+let favcolor =document.querySelector(".color");
+let number = document.querySelector("#nb");
+favcolor.addEventListener('mouseover',function(){​​​​​​​​
+    favcolor.style.color ='#'+Math.floor(Math.random()*16777215).toString(16);});
+ 
